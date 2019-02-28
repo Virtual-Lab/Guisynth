@@ -1,6 +1,6 @@
 # Guisynth
 
-Files for the SuperCollider IDE,
+Files for the SuperCollider IDE for MAC, also a Version for Linux exists (only Midi Implementation is diffrent)
 Development of a Liveperformance-Tool.<br />
 a mixer, soundmoduls, effects (reverb, delay, distortion), aux channel for audiostream via raspberry pi,
 possibility to use Cloudspeakers remotly
@@ -23,7 +23,9 @@ which are in the same network (see http://cloudspeaker.zhdk.ch)<br />
 
 a folder "sounds" should be created and filled with soundfiles (wav-files).<br />
 The sounds are loaded in the moduls: granulator1, granulator2, sampler ...<br />
-Further Soundmoduls: a simple addative Synth, and a extended Synth which is playing granulated textures<br />
+Further Soundmoduls: a simple additive Synth, and a extended Synth which is playing granulated textures<br />
+
+Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - RETURN<br />
 
 Select your SoundDevice in the Main File:<br />
 e.g.:<code>o.device = "JackRouter";</code>
