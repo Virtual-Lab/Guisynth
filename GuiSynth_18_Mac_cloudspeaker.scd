@@ -98,6 +98,8 @@ s.waitForBoot ({
 	"Guisynth_18_instruments.scd".loadRelative;
 
 	//loadRelative("NanoCtl_Fox01-Mac.scd");
+	//loadRelative("NanoCtl_Live01.scd");
+
 	"Cloudsynth3.scd".loadRelative;
 	//"piset.scd".loadRelative;
 
@@ -105,7 +107,11 @@ s.waitForBoot ({
 
 	~main.interface;
 
-	~playbuf = Buffer.readChannel(s, "/Users/rvogtenh/Qsync/privat_Supercollider/responsiv_space/ResponsivSpace1/handy1.wav", channels: [0, 1]);
+
+	~files = PathName.new("/sounds/").files;
+    ~sfsource = ~files[0].fullPath;
+
+	~playbuf = Buffer.readChannel(s, ~sfsource, channels: [0, 1]);
 
 	~granulator1 = ~m_player.value(~granulator1, "granulator1", ~object1, height: 380, bufnum: 0);
 	~granulator2 = ~m_player.value(~granulator2, "granulator2", ~object1, height: 420, bufnum: 1);
@@ -156,6 +162,7 @@ s.waitForBoot ({
 
 };
 
+/*
 
 ~cs[\test][\off].value;
 ~cs[\test1].stop;
@@ -165,4 +172,4 @@ s.waitForBoot ({
 
 ~instruments[1][\OnControl].value(0/127);
 
-Ndef(\brummel, (
+*/
