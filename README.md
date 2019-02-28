@@ -1,7 +1,9 @@
 # Guisynth
 
 Files for the SuperCollider IDE,
-Development of a Liveperformance-Tool.
+Development of a Liveperformance-Tool.<br />
+a mixer, soundmoduls, effects (reverb, delay, distortion), aux channel for audiostream via raspberry pi,
+possibility to use Cloudspeakers remotly
 
 Synthesizer with Gui and MVC-Implementation
 
