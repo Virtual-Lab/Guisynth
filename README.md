@@ -7,7 +7,7 @@ Synthesizer with Gui and MVC-Implementation
 
 Files for Midi-Control can be loaded if uncommented in the main file:
 NanoCtl_Live01.scd  for Korg NanocontrolI 
-CC Midi-Channels for the controllers are stored in Arrays and can be adepted
+CC Midi-Channels for the controllers are stored in Arrays and can be adapted:<br />
 <code>~nc.sliderNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 	~nc.knobNumbers = [33, 34, 35, 36, 37, 38, 39, 40];
 </code>
