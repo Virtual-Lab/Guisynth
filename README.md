@@ -20,8 +20,8 @@ The file Cloudsynth3.scd is for Cloudspeakers<br />
 which are in the same network (see http://cloudspeaker.zhdk.ch)<br />
 
 a folder "sounds" should be created and filled with soundfiles (wav-files).<br />
-The sounds are loaded in the moduls: granulator1, granulator2, sampler ...
-Further Soundmoduls: a simple addative Synth, and a extended Synth which is playing granulated textures<br >
+The sounds are loaded in the moduls: granulator1, granulator2, sampler ...<br />
+Further Soundmoduls: a simple addative Synth, and a extended Synth which is playing granulated textures<br />
 
 Select your SoundDevice in the Main File:<br />
 e.g.:<code>o.device = "JackRouter";</code>
