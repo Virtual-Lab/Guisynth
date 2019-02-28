@@ -1,6 +1,6 @@
 # Guisynth
 
-Files for the SuperCollider IDE for MAC, also a Version for Linux exists (only Midi Implementation is diffrent)
+Files for the SuperCollider IDE for MAC, also a Version for Linux exists
 Development of a Liveperformance-Tool.<br />
 a mixer, soundmoduls, effects (reverb, delay, distortion), aux channel for audiostream via raspberry pi,
 possibility to use Cloudspeakers remotly
