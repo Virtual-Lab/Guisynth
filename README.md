@@ -9,9 +9,9 @@ Files for Midi-Control can be loaded if uncommented in the main file:
 _"NanoCtl_Live01.scd"_ for Korg Nanocontrol1
 CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 ```~nc.sliderNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
-~nc.knobNumbers = [33, 34, 35, 36, 37, 38, 39, 40];```
+~nc.knobNumbers = [33, 34, 35, 36, 37, 38, 39, 40];
 
-```~nc.button1Numbers[0] = [48, 49, 50, 51, 52, 53, 54, 55];
+~nc.button1Numbers[0] = [48, 49, 50, 51, 52, 53, 54, 55];
 ~nc.button2Numbers[0] = [64, 65, 66, 67, 68, 69, 70, 71];
 ~nc.button3Numbers[0] = [72, 73, 74, 75, 76, 77, 78, 79];```
 
