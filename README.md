@@ -18,7 +18,7 @@ CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 
 
 The file Cloudsynth3.scd is for Cloudspeakers
-which are in the same network see: (http://cloudspeaker.zhdk.ch)
+which are in the same network see: http://cloudspeaker.zhdk.ch
 
 a folder "sounds" should be created and filled with soundfiles (wav-files).
 The sounds are loaded in the moduls: granulator1, granulator2, sampler ...
