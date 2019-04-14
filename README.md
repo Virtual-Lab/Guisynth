@@ -18,7 +18,7 @@ CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 
 
 The file Cloudsynth3.scd is for Cloudspeakers
-which are in the same network [see http://cloudspeaker.zhdk.ch](http://cloudspeaker.zhdk.ch)
+which are in the same network see: (http://cloudspeaker.zhdk.ch)
 
 a folder "sounds" should be created and filled with soundfiles (wav-files).
 The sounds are loaded in the moduls: granulator1, granulator2, sampler ...
@@ -29,7 +29,6 @@ Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - R
 Select your SoundDevice in the Main File:
 e.g.:`o.device = "JackRouter";`
 
-More Information about SuperCollider:
-[SuperCollider](https://supercollider.github.io/)
+More Information about[SuperCollider:](https://supercollider.github.io/)
 
 
