@@ -29,6 +29,6 @@ Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - R
 Select your SoundDevice in the Main File:
 e.g.:`o.device = "JackRouter";`
 
-More Information about[SuperCollider:](https://supercollider.github.io/)
+More Information about [SuperCollider:](https://supercollider.github.io/)
 
 
