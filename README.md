@@ -3,7 +3,7 @@
 Files for the SuperCollider IDE for MAC, also a Version for Linux exists
 Development of a Liveperformance-Tool. It consists of a a mixer, soundmoduls, effects (reverb, delay, distortion), aux channel for audiostream via raspberry pi, possibility to use Cloudspeakers remotly
 
-Synthesizer with Gui and MVC-Implementation
+###Synthesizer with Gui and MVC-Implementation
 
 Files for Midi-Control can be loaded if uncommented in the main file:
 _"NanoCtl_Live01.scd"_ for Korg Nanocontrol1
