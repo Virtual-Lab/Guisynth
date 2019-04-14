@@ -13,7 +13,8 @@ CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 
 ~nc.button1Numbers[0] = [48, 49, 50, 51, 52, 53, 54, 55];
 ~nc.button2Numbers[0] = [64, 65, 66, 67, 68, 69, 70, 71];
-~nc.button3Numbers[0] = [72, 73, 74, 75, 76, 77, 78, 79];```
+~nc.button3Numbers[0] = [72, 73, 74, 75, 76, 77, 78, 79];
+```
 
 
 The file Cloudsynth3.scd is for Cloudspeakers
@@ -28,7 +29,7 @@ Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - R
 Select your SoundDevice in the Main File:
 e.g.:`o.device = "JackRouter";`
 
-More Information about SuperCollider:<br />
+More Information about SuperCollider:
 [SuperCollider](https://supercollider.github.io/)
 
 
