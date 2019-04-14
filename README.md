@@ -5,7 +5,7 @@ Development of a Liveperformance-Tool. It consists of a a mixer, soundmoduls, ef
 
 ### Synthesizer with Gui and MVC-Implementation
 
-Files for Midi-Control can be loaded if uncommented in the main file: _"NanoCtl_Live01.scd"_ for Korg Nanocontrol1
+Files for Midi-Control can be loaded if uncommented in the main file: _"NanoCtl_Live01.scd"_ for Korg Nanocontrol1<br />
 CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 ```~nc.sliderNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 ~nc.knobNumbers = [33, 34, 35, 36, 37, 38, 39, 40];
