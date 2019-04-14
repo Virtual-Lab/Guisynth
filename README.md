@@ -5,8 +5,7 @@ Development of a Liveperformance-Tool. It consists of a a mixer, soundmoduls, ef
 
 ### Synthesizer with Gui and MVC-Implementation
 
-Files for Midi-Control can be loaded if uncommented in the main file:
-_"NanoCtl_Live01.scd"_ for Korg Nanocontrol1
+Files for Midi-Control can be loaded if uncommented in the main file: _"NanoCtl_Live01.scd"_ for Korg Nanocontrol1
 CC Midi-Channels for the controllers are stored in Arrays and can be adapted:
 ```~nc.sliderNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 ~nc.knobNumbers = [33, 34, 35, 36, 37, 38, 39, 40];
@@ -24,7 +23,7 @@ a folder "sounds" should be created and filled with soundfiles (wav-files).
 The sounds are loaded in the moduls: granulator1, granulator2, sampler ...
 Further Soundmoduls: a simple additive Synth, and a extended Synth which is playing granulated textures
 
-Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - RETURN
+Start the main file with Supercollider IDE, (evaluate the File e.g. with CMD - RETURN)
 
 Select your SoundDevice in the Main File:
 e.g.:`o.device = "JackRouter";`
